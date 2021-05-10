@@ -1,0 +1,74 @@
+.banner {
+  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center center;
+  height:86vh;
+  position: relative;
+}
+
+
+.banner__info {
+    background-color: #393e46;
+    color: white;
+    padding-top: 20vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    opacity:0.9;
+}
+
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color:  #ff7779 !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: white !important;
+
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+  }
+  
+
+.banner__info > h5 {
+    margin-top: 10px;
+}
+.log {
+  opacity: 0.9;
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  position: absolute;
+  right:5%;
+  top:20%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='400' height='250' preserveAspectRatio='none' viewBox='0 0 400 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1084%26quot%3b)' fill='none'%3e%3crect width='400' height='250' x='0' y='0' fill='rgba(255%2c 119%2c 121%2c 1)'%3e%3c/rect%3e%3cpath d='M194.40647135275805 52.15821210053086L155.62812993325292 98.37243980207096 201.84235763479302 137.1507812215761 240.62069905429814 90.936553520036z' fill='rgba(255%2c 201%2c 150%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-17.981065842474433-32.995222901084325L-46.22377843052 33.54043836674311 48.554595425353-4.752510313038762z' fill='rgba(255%2c 201%2c 150%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M371.2466387730105 211.36944278279088L416.90454327742333 175.69757825707683 381.2326787517093 130.039673752664 335.57477424729643 165.71153827837804z' fill='rgba(255%2c 201%2c 150%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M160.22 152.7 a58.5 58.5 0 1 0 117 0 a58.5 58.5 0 1 0 -117 0z' fill='rgba(255%2c 201%2c 150%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M414.33070118559374 60.04932977279269L381.0904422669261 4.608636013292191 352.8368145010818 53.545354801873316z' fill='rgba(255%2c 201%2c 150%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M56.233%2c190.422C66.34%2c190.231%2c77.342%2c187.931%2c82.133%2c179.029C86.765%2c170.423%2c81.885%2c160.547%2c76.807%2c152.197C71.996%2c144.286%2c65.49%2c136.642%2c56.233%2c136.437C46.695%2c136.225%2c39.122%2c143.19%2c34.013%2c151.247C28.407%2c160.087%2c23.419%2c170.934%2c28.583%2c180.039C33.789%2c189.217%2c45.683%2c190.621%2c56.233%2c190.422' fill='rgba(255%2c 201%2c 150%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-20.81 62.13 a66.2 66.2 0 1 0 132.4 0 a66.2 66.2 0 1 0 -132.4 0z' fill='rgba(255%2c 201%2c 150%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1084'%3e%3crect width='400' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.log > Button {
+  position: absolute;
+  background-color: #393e46;
+  color: white;
+  top: 40%;
+  left: 27%;
+  height: 60px;
+  width: 200px;
+}
+.log > Button:hover {
+  background-color: #c6ffc1;
+  color:#334443;
+}

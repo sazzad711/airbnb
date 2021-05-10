@@ -1,0 +1,26 @@
+.copyright  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  .copyright > img {
+    object-fit: contain;
+    height: 100px;
+    
+  }
+  .copyright__icon {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content:center;
+     padding: 7px;
+     color: #FF5A5F;
+     
+     transition: all 0.2s ease-in-out;
+    }
+    .copyright__icon:hover {
+      transform: scale(1.5);
+      cursor: pointer;
+      color: #CB4E47;
+    }
